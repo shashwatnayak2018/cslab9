@@ -1,0 +1,3 @@
+char c = 'A';
+double *p = &c;
+Here p points to the value stored in the address of c which is A(a character type variable).So, it should be char *p = &c instead of double *p = &c.
